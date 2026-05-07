@@ -2,19 +2,19 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: FlorianHeidenreich.Mp3tag
-PackageVersion: "3.34"
+PackageVersion: 3.34.1
 InstallerType: nullsoft
 Scope: machine
 UpgradeBehavior: install
 ProductCode: Mp3tag
-ReleaseDate: 2026-04-10
+ReleaseDate: 2026-05-07
 ElevationRequirement: elevationRequired
 Installers:
 - Architecture: x86
-  InstallerUrl: https://download.mp3tag.de/mp3tag-v3.34-setup.exe
-  InstallerSha256: C5BA0ED469B9FC6755F9A49FC0BD62E699F14C6DC76B67094935178C6F23AA05
+  InstallerUrl: https://download.mp3tag.de/mp3tag-v3.34.1-setup.exe
+  InstallerSha256: 0F77D6DDC07207171B0A246A1BD370706BACB33B78EBDD567CE5E0025140924E
 - Architecture: x64
-  InstallerUrl: https://download.mp3tag.de/mp3tag-v3.34-x64-setup.exe
-  InstallerSha256: BCB898D0A1FD9A87503C8D6D04083DC350D6DE51E472A78E605E0E80BA9189BC
+  InstallerUrl: https://download.mp3tag.de/mp3tag-v3.34.1-x64-setup.exe
+  InstallerSha256: 8C01E57DCF5073C22D369EF381473B592BACCA39DB8EE9CEE32CEAA8A134522C
 ManifestType: installer
 ManifestVersion: 1.12.0
