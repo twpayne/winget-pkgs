@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: SoftPerfect.NetWorx
-PackageVersion: "26.1"
+PackageVersion: "26.5"
 PackageLocale: en-US
 Publisher: SoftPerfect Pty Ltd
 PublisherUrl: https://www.softperfect.com/
@@ -41,11 +41,12 @@ Tags:
 - network
 - traffic
 ReleaseNotes: |-
-  - Added: Taskbar widget display options for rates, graph and labels.
-  - Added: Lifetime statistics for uptime, speed and usage in the About window.
-  - Improved: Speed test rate calculation accuracy.
-  - Fixed: Potential access violation when quitting during speed test.
-  - Updated: Speed test to handle new infrastructure response format.
+  - Added: Native ARM64 build for Windows on ARM.
+  - Added: Area and Mirrored chart types for the traffic graph.
+  - Improved: Quota dialog now uses radial gauges with under/on/over budget indicators.
+  - Improved: Modernised usage report charts with auto-fit time scale and a top-10 ranking view.
+  - Improved: Per-application grouping now matches the same application installed in different locations.
+  - Removed: 32-bit Windows builds are no longer provided.
 ReleaseNotesUrl: https://www.softperfect.com/products/changelog.php?product_id=2
 PurchaseUrl: https://www.softperfect.com/order/?product=nwx
 Documentations:
