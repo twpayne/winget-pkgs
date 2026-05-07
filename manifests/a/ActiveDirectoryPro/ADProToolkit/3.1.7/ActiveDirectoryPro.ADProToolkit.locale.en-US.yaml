@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: ActiveDirectoryPro.ADProToolkit
-PackageVersion: 3.1.6
+PackageVersion: 3.1.7
 PackageLocale: en-US
 Publisher: ActiveDirectoryPro
 PublisherUrl: https://activedirectorypro.com/
@@ -22,11 +22,14 @@ Tags:
 ReleaseNotes: |-
   New Features
   Section titled “New Features”
-  - All Tools Page - New “All Tools” category in the Tools sidebar shows every tool grouped by category in a card layout with search filtering
+  - Offboard Users - Added “Append to existing description” option so the offboarding note is appended to the current description rather than overwriting it (separator: |)
   Improvements
   Section titled “Improvements”
-  - Group Report: Members Column - Members column now available in the column picker for all group reports, showing a semicolon-separated list of member names
-  - Bulk Update Users - Added support for preferredName attribute; memberOf now recognized as a CSV header alias for the Member Of column
+  - Reset Password - Added “Show passwords” toggle to unmask password fields; preference is remembered across app restarts
+  - AD Cleanup - “Last Logon” column renamed to “Last Logon Timestamp” to accurately reflect the replicated attribute being used
+  Bug Fixes
+  Section titled “Bug Fixes”
+  - Reports - Fixed filter chips not showing after applying a column filter (FilterBar was never made visible and chips were being cleared before display)
 ReleaseNotesUrl: https://docs.activedirectorypro.com/getting-started/release-notes/
 PurchaseUrl: https://activedirectorypro.com/pricing/
 Documentations:
