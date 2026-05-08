@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Catsxp.Catsxp
-PackageVersion: 148.6.5.2
+PackageVersion: 148.6.5.3
 InstallerType: exe
 InstallModes:
 - silent
@@ -31,30 +31,30 @@ FileExtensions:
 - xht
 - xhtml
 ProductCode: CatsxpSoftware Catsxp-Browser
-ReleaseDate: 2026-04-30
+ReleaseDate: 2026-05-08
 Installers:
 - Architecture: x86
   Scope: user
-  InstallerUrl: https://b2.catsxp.com/catsxp_update/win_x86/catsxp_installer_148_6_5_2.exe
-  InstallerSha256: BD77CE632BAF79E357DC4EB873F7AD864D32F97585A72651439B3706BE55E1CC
+  InstallerUrl: https://b2.catsxp.com/catsxp_update/win_x86/catsxp_installer_148_6_5_3.exe
+  InstallerSha256: 0872A984A1544AF4FE75D8B42D92DA1F9365DA6ADB54BBB86F428B7AFA3972D4
   InstallerSwitches:
     Custom: --do-not-launch-chrome
 - Architecture: x86
   Scope: machine
-  InstallerUrl: https://b2.catsxp.com/catsxp_update/win_x86/catsxp_installer_148_6_5_2.exe
-  InstallerSha256: BD77CE632BAF79E357DC4EB873F7AD864D32F97585A72651439B3706BE55E1CC
+  InstallerUrl: https://b2.catsxp.com/catsxp_update/win_x86/catsxp_installer_148_6_5_3.exe
+  InstallerSha256: 0872A984A1544AF4FE75D8B42D92DA1F9365DA6ADB54BBB86F428B7AFA3972D4
   InstallerSwitches:
     Custom: --do-not-launch-chrome --system-level
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://b2.catsxp.com/catsxp_update/win_x64/catsxp_installer_148_6_5_2.exe
-  InstallerSha256: 5C35931ABAD901044092EEAEC705CA41A7E36E7A3DDE1618413DB293C90E4540
+  InstallerUrl: https://b2.catsxp.com/catsxp_update/win_x64/catsxp_installer_148_6_5_3.exe
+  InstallerSha256: 4D141314266A9EC5D2C7F179A7D8816E7BA0EF100411A847EC1ABF9F016D17D0
   InstallerSwitches:
     Custom: --do-not-launch-chrome
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://b2.catsxp.com/catsxp_update/win_x64/catsxp_installer_148_6_5_2.exe
-  InstallerSha256: 5C35931ABAD901044092EEAEC705CA41A7E36E7A3DDE1618413DB293C90E4540
+  InstallerUrl: https://b2.catsxp.com/catsxp_update/win_x64/catsxp_installer_148_6_5_3.exe
+  InstallerSha256: 4D141314266A9EC5D2C7F179A7D8816E7BA0EF100411A847EC1ABF9F016D17D0
   InstallerSwitches:
     Custom: --do-not-launch-chrome --system-level
 ManifestType: installer
