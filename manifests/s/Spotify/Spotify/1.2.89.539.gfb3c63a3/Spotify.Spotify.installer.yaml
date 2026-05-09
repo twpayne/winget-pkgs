@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Spotify.Spotify
-PackageVersion: 1.2.88.483.g8aa8628e
+PackageVersion: 1.2.89.539.gfb3c63a3
 InstallerType: exe
 Scope: user
 InstallModes:
@@ -20,9 +20,9 @@ ElevationRequirement: elevationProhibited
 Installers:
 - Architecture: x64
   InstallerUrl: https://download.scdn.co/SpotifyFullSetupX64.exe
-  InstallerSha256: 23FC64EE41702118248A21B87D14097259EFB528F68E96D0D2153BF41305D100
+  InstallerSha256: AE4ADB9381329A878EC3A5D0711A99CA4E281E5F026EB267914555503A3B1C0D
 - Architecture: arm64
   InstallerUrl: https://download.scdn.co/SpotifyFullSetupARM64.exe
-  InstallerSha256: D4EFAFCED8A42D251DAA35A7C196A3419CDE5F6FCEC47F45C7A26BCD802484FA
+  InstallerSha256: F7C186BCEA21DF490A640ACC88B47D90A108A4FAAAE785B6F038144927873A67
 ManifestType: installer
 ManifestVersion: 1.12.0
