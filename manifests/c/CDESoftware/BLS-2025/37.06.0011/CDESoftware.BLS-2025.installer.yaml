@@ -2,13 +2,13 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: CDESoftware.BLS-2025
-PackageVersion: 37.06.0009
+PackageVersion: 37.06.0011
 InstallerType: exe
 InstallerSwitches:
   Silent: /exenoui /qn /norestart
 Installers:
 - Architecture: x86
   InstallerUrl: https://static.cdesoftware.com/bls2025/BLS2025INSTALLER.EXE
-  InstallerSha256: 1D589CA9A6EC19CF8879F3C9E3FD1369C07E7F068636ACCD59DF961C7705D98B
+  InstallerSha256: DC24040CAFDA9AA4A48C16E36512C394465636D0AFE044DF27EDFC41E7009B2B
 ManifestType: installer
 ManifestVersion: 1.12.0
