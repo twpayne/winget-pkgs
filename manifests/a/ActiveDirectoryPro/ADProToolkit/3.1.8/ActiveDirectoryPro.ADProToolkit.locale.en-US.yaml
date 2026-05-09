@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: ActiveDirectoryPro.ADProToolkit
-PackageVersion: 3.1.7
+PackageVersion: 3.1.8
 PackageLocale: en-US
 Publisher: ActiveDirectoryPro
 PublisherUrl: https://activedirectorypro.com/
@@ -22,14 +22,17 @@ Tags:
 ReleaseNotes: |-
   New Features
   Section titled “New Features”
-  - Offboard Users - Added “Append to existing description” option so the offboarding note is appended to the current description rather than overwriting it (separator: |)
+  - Create User - Display Name Format: New dropdown to control the display name and AD Name (CN) format independently from the logon name format
+  - Scheduled Tasks - Domain Health Check: Domain controller selection added to the schedule dialog, with a Discover button to auto-populate available DCs
   Improvements
   Section titled “Improvements”
-  - Reset Password - Added “Show passwords” toggle to unmask password fields; preference is remembered across app restarts
-  - AD Cleanup - “Last Logon” column renamed to “Last Logon Timestamp” to accurately reflect the replicated attribute being used
+  - Create User - Label clarity: “Name Format” label renamed to “User Logon Name (sAMAccountName)”
+  - Create User - UPN Format: “Same as Name Format” option renamed to “Same as Logon Name”
+  - Create User - Group error logging: Group membership failures now log the group name and AD extended error message for easier diagnosis
   Bug Fixes
   Section titled “Bug Fixes”
-  - Reports - Fixed filter chips not showing after applying a column filter (FilterBar was never made visible and chips were being cleared before display)
+  - Scheduled Tasks - Inactive Accounts / Disable Accounts: Multiple OU selections from the browse button were not being saved
+  - Soon to Expire Passwords report: Password Expiry Date column was sorting alphabetically instead of by date
 ReleaseNotesUrl: https://docs.activedirectorypro.com/getting-started/release-notes/
 PurchaseUrl: https://activedirectorypro.com/pricing/
 Documentations:
