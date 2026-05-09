@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
 
 PackageIdentifier: Superace.UPDF
-PackageVersion: 2.5.1.0
+PackageVersion: 2.5.2.0
 PackageLocale: zh-CN
 Publisher: Superace Software Technology Co., Ltd.
 PublisherUrl: https://superace.com/
@@ -31,8 +31,9 @@ Tags:
 - 阅读
 - 阅读器
 ReleaseNotes: |-
-  - 新增区域高亮功能。
-  - 修复已知问题并优化整体性能。
+  - 更新 OCR 插件，提升 OCR 效果。
+  - 首选项增加“启用 AI 助手”开关。
+  - 修改一些问题，提升产品的稳定性。
 ReleaseNotesUrl: https://www.updf.cn/whats-new/
 PurchaseUrl: https://checkout.updf.cn/updf
 Documentations:
