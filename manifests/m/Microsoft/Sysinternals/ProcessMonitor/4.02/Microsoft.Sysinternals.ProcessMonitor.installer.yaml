@@ -1,8 +1,8 @@
-# Created using wingetcreate 1.10.3.0
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+# Created using wingetcreate 1.12.8.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Microsoft.Sysinternals.ProcessMonitor
-PackageVersion: "4.01"
+PackageVersion: "4.02"
 InstallerLocale: en-US
 InstallerType: zip
 NestedInstallerType: portable
@@ -19,19 +19,19 @@ Installers:
   - RelativeFilePath: Procmon.exe
     PortableCommandAlias: procmon
   InstallerUrl: https://download.sysinternals.com/files/ProcessMonitor.zip
-  InstallerSha256: D4ED579FDC1957FDE0124DD41EFD8D72AF0529254984BFA5A3864ECD8B539252
+  InstallerSha256: 39007CC8EA844DD023BE9E2C1C03EE1BCCA7B417298B277CBA712D253F8F167A
 - Architecture: x64
   NestedInstallerFiles:
   - RelativeFilePath: Procmon64.exe
     PortableCommandAlias: procmon
   InstallerUrl: https://download.sysinternals.com/files/ProcessMonitor.zip
-  InstallerSha256: D4ED579FDC1957FDE0124DD41EFD8D72AF0529254984BFA5A3864ECD8B539252
+  InstallerSha256: 39007CC8EA844DD023BE9E2C1C03EE1BCCA7B417298B277CBA712D253F8F167A
 - Architecture: arm64
   NestedInstallerFiles:
   - RelativeFilePath: Procmon64a.exe
     PortableCommandAlias: procmon
   InstallerUrl: https://download.sysinternals.com/files/ProcessMonitor.zip
-  InstallerSha256: D4ED579FDC1957FDE0124DD41EFD8D72AF0529254984BFA5A3864ECD8B539252
+  InstallerSha256: 39007CC8EA844DD023BE9E2C1C03EE1BCCA7B417298B277CBA712D253F8F167A
 ManifestType: installer
-ManifestVersion: 1.10.0
-ReleaseDate: 2024-06-20
+ManifestVersion: 1.12.0
+ReleaseDate: 2026-05-07
