@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: BrinkSoftware.IbisCalculerenVoorInstallatie
-PackageVersion: 4.1.165.0
+PackageVersion: 4.2.73.0
 InstallerType: exe
 Scope: machine
 InstallModes:
@@ -60,13 +60,13 @@ ExpectedReturnCodes:
 - InstallerReturnCode: 3010
   ReturnResponse: rebootRequiredToFinish
 UpgradeBehavior: install
-ProductCode: '{873BBED6-733E-4F12-ACD8-09BA0BBDEF25}'
+ProductCode: '{7B63B3A4-D3C7-4F92-B7E4-DA3430656A91}'
 AppsAndFeaturesEntries:
 - UpgradeCode: '{A6FDEAB2-B15B-4730-A5A7-49CEA8781058}'
   InstallerType: msi
 Installers:
 - Architecture: x64
   InstallerUrl: https://www.ibis.nl/hubfs/Downloads%20ibis.nl%20en%20ibis.be/Installatietechniek/IbisCalculerenVoorInstallatie_Setup_x64.exe
-  InstallerSha256: 239AEDE955C8A51AF1FD5E2A60A6162636A9CF2450E7145476D7C404AF16FA16
+  InstallerSha256: 68BB26BC2606FEA04DC2E91E98826779F8E29CFD6FAF89DD0CBB98415C532BB5
 ManifestType: installer
 ManifestVersion: 1.12.0
