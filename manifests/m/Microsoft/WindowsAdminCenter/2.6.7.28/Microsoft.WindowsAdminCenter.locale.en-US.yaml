@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Microsoft.WindowsAdminCenter
-PackageVersion: 2.6.6.18
+PackageVersion: 2.6.7.28
 PackageLocale: en-US
 Publisher: Microsoft Corporation
 PublisherUrl: https://www.microsoft.com/
@@ -34,7 +34,7 @@ Tags:
 - windowsremotedesktop
 - windowsserver
 - windowsupdate
-ReleaseNotes: '- Version 2511 is the most recently available (GA) release - it includes the restoration of HA deployment, installer enhancements, improvements to core tools like virtual machine management and Remote Desktop, as well as many improvements and bugfixes.'
+ReleaseNotes: '- Version 2511 is the most recently available (GA) release - it includes the restoration of HA deployment, installer enhancements, improvements to core tools like virtual machine management and Remote Desktop, as well as many improvements and bug fixes. This version has been updated several times to address security improvements and critical bugs. For more information, see the announcement blog post.'
 ReleaseNotesUrl: https://learn.microsoft.com/windows-server/manage/windows-admin-center/support/release-history
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
