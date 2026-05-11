@@ -1,8 +1,8 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: SmartProjects.IsoBuster
-PackageVersion: "5.7"
+PackageVersion: "5.8"
 InstallerType: inno
 Scope: machine
 UpgradeBehavior: install
@@ -114,18 +114,18 @@ FileExtensions:
 - xiso
 - ziso
 - zso
-ReleaseDate: 2025-11-24
+ReleaseDate: 2026-05-11
 ElevationRequirement: elevatesSelf
 InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles%\Smart Projects\IsoBuster'
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.isobuster.com/downloads/isobuster/isobuster_install.exe
-  InstallerSha256: 6A80AC07DA3F95D9135CAF44760DCA1595EB732ABD2B8044F88470CE51AE77F9
+  InstallerSha256: 701BCD319309DDB9E548EE7757EBD06833998BE2DD508183E2181BDD48794401
   ProductCode: IsoBuster_is1
 - Architecture: x64
   InstallerUrl: https://www.isobuster.com/downloads/isobuster/isobuster_install_64bit.exe
-  InstallerSha256: 311D9184FA24171190B581F7D7785E93F29E249880C9E20037A76F523D597AE1
+  InstallerSha256: 91B248718F5A81EE0A4F8153904DA96130F38236DB2E759A5D18C9906C431BEC
   ProductCode: IsoBuster64bit_is1
 ManifestType: installer
-ManifestVersion: 1.10.0
+ManifestVersion: 1.12.0
