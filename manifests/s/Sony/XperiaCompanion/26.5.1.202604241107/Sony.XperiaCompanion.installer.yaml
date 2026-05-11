@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Sony.XperiaCompanion
-PackageVersion: 26.4.2.202603301435
+PackageVersion: 26.5.1.202604241107
 InstallerType: nullsoft
 Scope: user
 UpgradeBehavior: install
@@ -10,6 +10,6 @@ ProductCode: Xperia Companion
 Installers:
 - Architecture: x64
   InstallerUrl: https://app.swup.update.sony.net/xperia-companion/installers/latest/Xperia_Companion.exe
-  InstallerSha256: 39B00E58A79BFEFAB1D64811A2BF65A803A782683166511A7E4A004AF2D6A746
+  InstallerSha256: 5320E0BC5576B4EABF60B33AA8017D3EAE278DE01B84ACE356613FDE2E0FF2EB
 ManifestType: installer
 ManifestVersion: 1.12.0
