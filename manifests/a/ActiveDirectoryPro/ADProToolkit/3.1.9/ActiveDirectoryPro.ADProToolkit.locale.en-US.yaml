@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: ActiveDirectoryPro.ADProToolkit
-PackageVersion: 3.1.8
+PackageVersion: 3.1.9
 PackageLocale: en-US
 Publisher: ActiveDirectoryPro
 PublisherUrl: https://activedirectorypro.com/
@@ -22,17 +22,15 @@ Tags:
 ReleaseNotes: |-
   New Features
   Section titled “New Features”
-  - Create User - Display Name Format: New dropdown to control the display name and AD Name (CN) format independently from the logon name format
-  - Scheduled Tasks - Domain Health Check: Domain controller selection added to the schedule dialog, with a Discover button to auto-populate available DCs
+  - “Last Name, First Name” Display Format for creating users - New display name option that formats as “Smith, John”.
   Improvements
   Section titled “Improvements”
-  - Create User - Label clarity: “Name Format” label renamed to “User Logon Name (sAMAccountName)”
-  - Create User - UPN Format: “Same as Name Format” option renamed to “Same as Logon Name”
-  - Create User - Group error logging: Group membership failures now log the group name and AD extended error message for easier diagnosis
+  - DC consistency - All AD operations now target the same domain controller throughout a session. If a DC is manually configured in Domain Settings it is used directly; otherwise the app auto-discovers and pins to a specific DC on startup and domain switch, preventing failures caused by DNS round-robin routing requests to different DCs.
   Bug Fixes
   Section titled “Bug Fixes”
-  - Scheduled Tasks - Inactive Accounts / Disable Accounts: Multiple OU selections from the browse button were not being saved
-  - Soon to Expire Passwords report: Password Expiry Date column was sorting alphabetically instead of by date
+  - Fixed Inactive Accounts scheduled task - Task failed with “There is no such object on the server” when multiple OUs were selected. The service now correctly iterates each OU path individually instead of passing the full semicolon-delimited string as a single LDAP path.
+  - Fixed Disable Accounts scheduled task - Same multi-OU path bug fixed.
+  - Fixed Display Name Format not saving to templates - The field was missing from the template JSON serializer and parser, so the selection was lost on save/reload.
 ReleaseNotesUrl: https://docs.activedirectorypro.com/getting-started/release-notes/
 PurchaseUrl: https://activedirectorypro.com/pricing/
 Documentations:
