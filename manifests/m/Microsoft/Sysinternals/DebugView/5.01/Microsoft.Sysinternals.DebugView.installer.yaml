@@ -2,8 +2,9 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Microsoft.Sysinternals.DebugView
-PackageVersion: "5.00"
+PackageVersion: "5.01"
 InstallerLocale: en-US
+MinimumOSVersion: 10.0.22000.0
 InstallerType: zip
 NestedInstallerType: portable
 InstallModes:
@@ -11,7 +12,6 @@ InstallModes:
 - silent
 - silentWithProgress
 UpgradeBehavior: uninstallPrevious
-MinimumOSVersion: 10.0.22000.0
 Commands:
 - dbgview
 Installers:
@@ -20,19 +20,19 @@ Installers:
   - RelativeFilePath: Dbgview.exe
     PortableCommandAlias: dbgview
   InstallerUrl: https://download.sysinternals.com/files/DebugView.zip
-  InstallerSha256: 41E3A05F672A4824783A268FCBF8706C0C840EB2341429AFC8D241E6275CA651
+  InstallerSha256: 175DF220C9C35EBB38BC00187FCA8E6E09FA4EC61C4AF9E4DFADC7BBF2B723FB
 - Architecture: x64
   NestedInstallerFiles:
   - RelativeFilePath: dbgview64.exe
     PortableCommandAlias: dbgview
   InstallerUrl: https://download.sysinternals.com/files/DebugView.zip
-  InstallerSha256: 41E3A05F672A4824783A268FCBF8706C0C840EB2341429AFC8D241E6275CA651
+  InstallerSha256: 175DF220C9C35EBB38BC00187FCA8E6E09FA4EC61C4AF9E4DFADC7BBF2B723FB
 - Architecture: arm64
   NestedInstallerFiles:
   - RelativeFilePath: Dbgview64a.exe
     PortableCommandAlias: dbgview
   InstallerUrl: https://download.sysinternals.com/files/DebugView.zip
-  InstallerSha256: 41E3A05F672A4824783A268FCBF8706C0C840EB2341429AFC8D241E6275CA651
+  InstallerSha256: 175DF220C9C35EBB38BC00187FCA8E6E09FA4EC61C4AF9E4DFADC7BBF2B723FB
 ManifestType: installer
 ManifestVersion: 1.12.0
-ReleaseDate: 2026-03-26
+ReleaseDate: 2026-05-07
