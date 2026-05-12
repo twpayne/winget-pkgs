@@ -1,8 +1,8 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: StanleyBlack&Decker.DewaltDesignAssist
-PackageVersion: 1.7.8.1
+PackageVersion: 1.7.9.0
 InstallerType: wix
 Scope: machine
 InstallerSwitches:
@@ -10,12 +10,12 @@ InstallerSwitches:
 UpgradeBehavior: install
 FileExtensions:
 - dda
-ProductCode: '{1A0FBBBB-9DA6-4A27-B6D0-C92115CB3EBA}'
+ProductCode: '{D7772AAF-0F16-4508-86B9-5EC92ACE01F1}'
 AppsAndFeaturesEntries:
 - UpgradeCode: '{CBC11E40-839C-4EDC-A8EA-7FB0A52DA029}'
 Installers:
 - Architecture: x86
   InstallerUrl: https://ddawebsite-prod.azurewebsites.net/releases/DEWALT_DESIGN_ASSIST.msi
-  InstallerSha256: 2CD9CBD9C5D469A99BCC9C0AA169666CD75CFC1830AE63DCC602F41C161E4AD4
+  InstallerSha256: 6F23F17C13E43EF0CF4C49B7C338D32268D0FD712E36B2412465A42349078F0F
 ManifestType: installer
-ManifestVersion: 1.10.0
+ManifestVersion: 1.12.0
