@@ -1,8 +1,8 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.10.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
 
 PackageIdentifier: Texthelp.Equatio
-PackageVersion: 1.19.0
+PackageVersion: 2.0.0
 PackageLocale: zh-CN
 License: 专有软件
 ShortDescription: 让每个人都能参与数学课堂
@@ -11,4 +11,4 @@ Tags:
 - 教育
 - 数学
 ManifestType: locale
-ManifestVersion: 1.10.0
+ManifestVersion: 1.12.0
