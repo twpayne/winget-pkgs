@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Ubisoft.Connect
-PackageVersion: 170.2.0.13140
+PackageVersion: 171.0.0.13174
 InstallerLocale: en-US
 InstallerType: nullsoft
 Scope: machine
@@ -12,7 +12,7 @@ InstallModes:
 UpgradeBehavior: install
 ProductCode: Uplay
 AppsAndFeaturesEntries:
-- DisplayVersion: 170.2.13140
+- DisplayVersion: 171.0.13174
   ProductCode: Uplay
 ElevationRequirement: elevatesSelf
 InstallationMetadata:
@@ -20,6 +20,7 @@ InstallationMetadata:
 Installers:
 - Architecture: x86
   InstallerUrl: https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe
-  InstallerSha256: BE622DF39659212209F770266E61327772B422EEB6395ED9FB95D255FF13E3E7
+  InstallerSha256: 7A6942EF2C96ED516B4E06256B03AC0BB994DE22702E944F4EBF2C2507F31A24
 ManifestType: installer
 ManifestVersion: 1.12.0
+ReleaseDate: 2026-05-12

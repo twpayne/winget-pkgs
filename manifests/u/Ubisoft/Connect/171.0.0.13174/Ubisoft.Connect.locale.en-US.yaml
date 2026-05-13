@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Ubisoft.Connect
-PackageVersion: 170.2.0.13140
+PackageVersion: 171.0.0.13174
 PackageLocale: en-US
 Publisher: Ubisoft
 PublisherUrl: https://www.ubisoft.com/en-us
