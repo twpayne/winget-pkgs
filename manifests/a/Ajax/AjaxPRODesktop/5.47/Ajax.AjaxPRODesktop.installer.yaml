@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Ajax.AjaxPRODesktop
-PackageVersion: "5.45"
+PackageVersion: "5.47"
 InstallerType: inno
 Scope: machine
 Protocols:
@@ -11,6 +11,6 @@ ProductCode: '{2FFA2EDA-2BB7-453D-81B5-AECEED5735A0}_is1'
 Installers:
 - Architecture: x64
   InstallerUrl: https://desktop-app.ajax.systems/app/resources/downloads/windows64/AjaxSetup64.exe
-  InstallerSha256: FBD83E1181429281CE4CBF122F8A54C07BA0E44B69060C14B4E271EDAA40D2F5
+  InstallerSha256: CFEB1C3A38547B50CEDDA9225BD79892BF4888A85E827056780017495277DB3D
 ManifestType: installer
 ManifestVersion: 1.12.0
