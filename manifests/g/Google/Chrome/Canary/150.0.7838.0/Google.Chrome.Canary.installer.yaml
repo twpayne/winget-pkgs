@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Google.Chrome.Canary
-PackageVersion: 150.0.7837.0
+PackageVersion: 150.0.7838.0
 InstallerType: exe
 Scope: user
 InstallModes:
@@ -37,13 +37,13 @@ FileExtensions:
 ProductCode: Google Chrome SxS
 Installers:
 - Architecture: x86
-  InstallerUrl: https://dl.google.com/release2/chrome/m2oeqwtwk3v3zcyqihymdxvqau_150.0.7837.0/150.0.7837.0_chrome_installer_uncompressed.exe
-  InstallerSha256: DAE70059F1D6DA755E5FDD097E5CA39543C1FC376583BEC901042D170F5438C7
+  InstallerUrl: https://dl.google.com/release2/chrome/fuv25eymbek2g5ndtjc47dvmcm_150.0.7838.0/150.0.7838.0_chrome_installer_uncompressed.exe
+  InstallerSha256: 406374B669A86D7F7EC08093CFE2DFEE16102A310A6F50F17BF1A415BE554765
 - Architecture: x64
-  InstallerUrl: https://dl.google.com/release2/chrome/gpxsdov3lh5b5fe2bjfiuikzei_150.0.7837.0/150.0.7837.0_chrome_installer_uncompressed.exe
-  InstallerSha256: E312239830F293AA220ECA421B1070C8CAC2D7F5D999CD5CFFB63F07DDE0F610
+  InstallerUrl: https://dl.google.com/release2/chrome/baxqdf7xwv7g72zxbmlsqt2oiy_150.0.7838.0/150.0.7838.0_chrome_installer_uncompressed.exe
+  InstallerSha256: 12ABEFF64053C782C8157A5A20DF163E8E4BDCB01EAE4DAFFBA20749BEA650F5
 - Architecture: arm64
-  InstallerUrl: https://dl.google.com/release2/chrome/aqiemopnbmdvl6nf3hppy336sa_150.0.7837.0/150.0.7837.0_chrome_installer_uncompressed.exe
-  InstallerSha256: 634C71CB586088CB55AC9B566765BAC1D7A2CBB19AD01F26FD8A6B33C0661B04
+  InstallerUrl: https://dl.google.com/release2/chrome/jpeuqoizmyo4opv33r77vnmsoe_150.0.7838.0/150.0.7838.0_chrome_installer_uncompressed.exe
+  InstallerSha256: B314067229DF9DFD852A96FE64AE2A2C7B2911C6C850556000276555D742AF01
 ManifestType: installer
 ManifestVersion: 1.12.0
