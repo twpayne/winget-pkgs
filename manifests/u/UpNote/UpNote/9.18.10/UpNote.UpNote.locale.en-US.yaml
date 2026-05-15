@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: UpNote.UpNote
-PackageVersion: 9.18.9
+PackageVersion: 9.18.10
 PackageLocale: en-US
 Publisher: UpNote Pte. Ltd.
 PublisherUrl: https://getupnote.com/
@@ -20,7 +20,9 @@ Tags:
 - memo
 - memorandum
 - notes
-ReleaseNotes: '- Fixed a bug where exporting notes to PDF does not work.'
+ReleaseNotes: |-
+  - Fixed a rare issue with unable to sign out.
+  - Improved performance when editing large notes.
 ReleaseNotesUrl: https://help.getupnote.com/more/release-notes/mac-windows-and-linux-apps
 PurchaseUrl: https://getupnote.com/#pricing
 Documentations:
