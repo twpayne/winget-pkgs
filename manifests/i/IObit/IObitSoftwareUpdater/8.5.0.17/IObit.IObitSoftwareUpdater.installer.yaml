@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: IObit.IObitSoftwareUpdater
-PackageVersion: 8.4.1.15
+PackageVersion: 8.5.0.17
 InstallerLocale: en-US
 InstallerType: inno
 Scope: machine
@@ -20,7 +20,7 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://cdn.iobit.com/dl/iobit-software-updater-setup.exe
-  InstallerSha256: 28EE713DB22C7A4D4AC4D1D49C94FFD8E2C9F6D991108EA8D4E1ED382439E9A5
+  InstallerSha256: 407FA3E4C4490A0426EC0466E1EA03FE4F45B8AA2681E89A29373AE75089E263
 ManifestType: installer
 ManifestVersion: 1.12.0
-ReleaseDate: 2026-03-31
+ReleaseDate: 2026-05-14

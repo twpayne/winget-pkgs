@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: IObit.IObitSoftwareUpdater
-PackageVersion: 8.4.1.15
+PackageVersion: 8.5.0.17
 PackageLocale: en-US
 Publisher: IObit
 PublisherUrl: https://www.iobit.com/
@@ -21,10 +21,10 @@ Tags:
 - updater
 - security
 ReleaseNotes: |
-  v8.4 (2026-03-20)
-  - Added update support for 20+ popular programs such as Aegisub, Amazon Kindle, AnyBurn, Ant Download Manager, and AnyToISO
+  v8.5 (2026-05-14)
+  - Added update support for 30+ popular programs, including Bitwig Studio, Bandicam, Bluebeam Revu, Atomic Wallet, and Balsamiq Wireframes
   - Fixed incorrect update detections for some software
-  - Fixed all known bugs
+  - General performance improvements and bug fixes
 Documentations:
 - DocumentLabel: FAQ
   DocumentUrl: https://www.iobit.com/faq.php
