@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: iTop.iTopDataRecovery
-PackageVersion: 6.2.0.944
+PackageVersion: 6.2.0.951
 InstallerLocale: en-US
 InstallerType: inno
 ProductCode: iTop Data Recovery_is1
@@ -12,7 +12,7 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://download.itopupdate.com/dl/itop-data-recovery-setup.exe
-  InstallerSha256: A5DBE9D17E4FAF4D168425713558C1A6E569CF89FD8682F95C5DECE0FD05ADB9
+  InstallerSha256: DD84E42FC55BB1E441E54B899DE211650770FF6A69225200C7AE112020446295
 ManifestType: installer
 ManifestVersion: 1.12.0
-ReleaseDate: 2026-05-13
+ReleaseDate: 2026-05-15
