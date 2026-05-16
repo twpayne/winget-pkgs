@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Amazon.WorkspacesClient
-PackageVersion: 5.32.0.5813
+PackageVersion: 5.32.1.5891
 PackageLocale: en-US
 Publisher: Amazon Web Services, Inc
 PublisherUrl: https://aws.amazon.com/
@@ -21,14 +21,7 @@ Tags:
 - amazon
 - aws
 - workspaces
-ReleaseNotes: |-
-  - [Windows] Updated the keyboard shortcut to help users navigate from the client application to their local operating system, from Ctrl+Alt+DownArrow to Ctrl+Alt+Shift+DownArrow.
-  - [Windows] Fixed an issue where, in certain display configurations, not all valid displays were able to be selected.
-  - [Windows] Fixed an issue where the new client update banner was persisting after a client update in certain configurations.
-  - [Windows and macOS] Added support for connecting to WorkSpaces in the US East (Ohio) and Asia Pacific (Malaysia) regions.
-  - [Windows and macOS] Updated the PCoIP SDK.
-  - [Windows and macOS] Updated the DCV SDK.
-  - [Windows and macOS] Bug fixes and enhancements.
+ReleaseNotes: '- [Windows] Fixed an issue where, under certain conditions, the client may not launch correctly on Windows 11 devices with the April 2026 cumulative update (KB5083769) installed.'
 ReleaseNotesUrl: https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/relnotes.html
 Documentations:
 - DocumentLabel: Documentation

@@ -2,20 +2,20 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Amazon.WorkspacesClient
-PackageVersion: 5.32.0.5813
+PackageVersion: 5.32.1.5891
 InstallerType: wix
 Scope: machine
 InstallerSwitches:
   InstallLocation: APPLICATIONFOLDER="<INSTALLPATH>"
 UpgradeBehavior: install
-ProductCode: '{90795DA0-C532-43D8-AF2F-06B3C4283A42}'
-ReleaseDate: 2026-04-10
+ProductCode: '{C3E9D3C4-6BBC-4B2F-8673-13439F15C66D}'
+ReleaseDate: 2026-05-14
 AppsAndFeaturesEntries:
-- ProductCode: '{90795DA0-C532-43D8-AF2F-06B3C4283A42}'
+- ProductCode: '{C3E9D3C4-6BBC-4B2F-8673-13439F15C66D}'
   UpgradeCode: '{CB7B8EA8-3D5A-4233-A9CB-31A692E24E62}'
 Installers:
 - Architecture: x64
   InstallerUrl: https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi
-  InstallerSha256: BC97BEDF13D31B0BAD8A6F417E7A4FEE6DBD77F526B3E3648DD6674F7263723A
+  InstallerSha256: 443F6D3BF904C2BE17087B610C2F6403FE882228F8366AE6AF879F63B91645E5
 ManifestType: installer
 ManifestVersion: 1.12.0
