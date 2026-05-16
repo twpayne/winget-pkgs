@@ -1,7 +1,7 @@
 ﻿#yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: KDE.Okular.AppX
-PackageVersion: 25.1202.7167.0
+PackageVersion: 26.401.7357
 PackageLocale: en-US
 Publisher: KDE e.V.
 PackageName: Okular (AppX)
@@ -12,6 +12,7 @@ Description: |-
   Fast and packed with features, Okular allows you to read PDF documents, comics and EPub books, browse images, visualize Markdown documents, and much more.
 
   Note that due to complexities with AppX files, the Winget package's listed version numbers do not line up with those of the otherwise near-identical .exe-based "KDE.Okular" package.
+Moniker: okularappx
 Tags:
 - kdeokular
 - kde-okular
