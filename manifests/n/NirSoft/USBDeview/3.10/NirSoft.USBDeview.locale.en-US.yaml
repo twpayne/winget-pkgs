@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: NirSoft.USBDeview
-PackageVersion: "3.07"
+PackageVersion: "3.10"
 PackageLocale: en-US
 Publisher: NirSoft
 PublisherUrl: https://www.nirsoft.net/
@@ -40,9 +40,9 @@ Tags:
 - usb-flash-drive-speed-tests
 - powerdraw-specs
 ReleaseNotes: |-
-  - Version 3.07:
-    - Fixed issue: When copying data to the clipboard or exporting to tab-delimited file, every line contained an empty field in the end of the line.
-    - Added 'Sort By' toolbar button.
+  - Version 3.10:
+    - Added 'Black Background' option (Under the View menu). When it's turned on, the main table is displayed in black background and white text, instead of default system colors.
+    - Added 'Save All Items' option (Shift+Ctrl+S).
 ReleaseNotesUrl: https://www.nirsoft.net/utils/usb_devices_view.html#:~:text=Versions%20History
 Documentations:
 - DocumentLabel: FAQ

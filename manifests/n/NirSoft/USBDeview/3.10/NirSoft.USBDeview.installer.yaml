@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: NirSoft.USBDeview
-PackageVersion: "3.07"
+PackageVersion: "3.10"
 InstallerLocale: en-US
 InstallerType: zip
 NestedInstallerType: portable
@@ -12,10 +12,10 @@ NestedInstallerFiles:
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.nirsoft.net/utils/usbdeview.zip
-  InstallerSha256: f2ecd1c350829856e84b6aaf608a4be0a616784cac48b8cb1315a6970d1f45af
+  InstallerSha256: 30E2F5103420630650D3BBA3F5D28A828E664C414BA3BAA2A979BC19B2BF12F6
 - Architecture: x64
   InstallerUrl: https://www.nirsoft.net/utils/usbdeview-x64.zip
-  InstallerSha256: 1ACFEAAC8352313A607D2AA55A8A56E3662054CCF0BB05FC1EB909E1159152DB
+  InstallerSha256: 7EB383F7FBDDE8B48ECBA07CD97ADDA515E8FFC04839B0427CC89CED893C161B
 ManifestType: installer
 ManifestVersion: 1.12.0
-ReleaseDate: 2023-09-19
+ReleaseDate: 2026-05-14
